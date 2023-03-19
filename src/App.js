@@ -17,6 +17,7 @@ export default function App() {
     Aos.init({ duration: 1500 });
   }, []);
   return (
+    
     <div id="top" className={`${themename} app`}>
       <section id="#home">
         <Header />
